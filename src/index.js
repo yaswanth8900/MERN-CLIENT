@@ -11,7 +11,7 @@ root.render(
     
     <Router>
       <Navbar />
-      <h1>Welcome</h1>
+      <h1>Welcome</h1><h2>Hello</h2>
       <Routes>
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
